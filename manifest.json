@@ -3,6 +3,8 @@
     "short_name": "Keep Notes",
     "description": "App for keeping notes locally",
     "lang": "en-US",
+    "version": "0.0.1",
+    "manifest_version": 2,
     "scope": "./",
     "display_override": [
       "window-controls-overlay"
@@ -30,9 +32,9 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": ".",
+    "start_url": "/?fullscreen=true",
     "orientation": "any",
-    "display": "standalone",
+    "display": "fullscreen",
     "theme_color": "#202124",
     "background_color": "#202124",
     "serviceworker": {
